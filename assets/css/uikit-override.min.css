@@ -1,0 +1,43 @@
+.uk-breadcrumb>li:nth-child(n+2):before {
+    content: ">";
+    display: inline-block;
+    margin: 0 8px;
+    font-size: 20px;
+}
+
+.uk-placeholder {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid rgb(100, 100, 100);
+    background: #fafafa;
+    color: #444;
+}
+
+.uk-tab>li.uk-active>a {
+    border-color: transparent;
+    border-bottom-color: transparent;
+    background: #9e2e9b;
+    color: #fff;
+}
+
+.uk-tab>li>a {
+    display: block;
+    padding: 8px 12px 8px 12px;
+    border: 1px solid transparent;
+    border-bottom-width: 0;
+    color: #000;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.uk-tab>li>a:hover {
+    border-color: transparent;
+    background: #9e2e9b;
+    color: #fff;
+    outline: 0;
+}
+
+.uk-subnav-pill>.uk-active>* {
+    background: #c4c4c4;
+    color: #fff;
+}
